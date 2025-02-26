@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "sections": {
+      "main": "Główne",
+      "customers": "Klienci",
+      "products": "Produkty",
+      "employees": "Pracownicy",
+      "system": "System"
+    },
+    "links": {
+      "dashboard": "Dashboard",
+      "addCustomer": "Dodaj klienta",
+      "customerList": "Lista klientów",
+      "addProduct": "Dodaj produkt",
+      "productList": "Lista produktów",
+      "addEmployee": "Dodaj pracownika",
+      "employeeList": "Lista pracowników",
+      "archives": "Archiwum",
+      "settings": "Ustawienia"
+    }
+  }
+}

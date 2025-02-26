@@ -1,0 +1,471 @@
+{
+  "forms": {
+    "employee": {
+      "title": "Add Employee",
+      "editTitle": "Edit Employee",
+      "sections": {
+        "personal": "Personal Information",
+        "address": "Address Information",
+        "identification": "Identification Information",
+        "contact": "Contact Information",
+        "account": "Account Information",
+        "id": "Identification Information"
+      },
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter first name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter last name"
+        },
+        "pesel": {
+          "label": "PESEL",
+          "placeholder": "Enter PESEL"
+        },
+        "dateOfBirth": {
+          "label": "Date of Birth",
+          "placeholder": "Enter date of birth"
+        },
+        "street": {
+          "label": "Street",
+          "placeholder": "Enter street"
+        },
+        "houseNumber": {
+          "label": "House Number",
+          "placeholder": "Enter house number"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "placeholder": "Enter postal code"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Enter city"
+        },
+        "idSeries": {
+          "label": "ID Series",
+          "placeholder": "Enter ID series"
+        },
+        "idNumber": {
+          "label": "ID Number",
+          "placeholder": "Enter ID number"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Enter phone number"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter email"
+        },
+        "login": {
+          "label": "Login",
+          "placeholder": "Enter login"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter password"
+        },
+        "role": {
+          "label": "Role",
+          "placeholder": "Enter role (admin or employee)"
+        }
+      },
+      "validation": {
+        "required": "Field {{field}} must be filled out.",
+        "pesel": "PESEL must be exactly 11 digits long and only contain numbers.",
+        "email": "Please enter a valid email address.",
+        "phoneNumber": "Phone number must be between 9 and 15 digits and only contain numbers.",
+        "role": "Role must be either 'admin' or 'employee'.",
+        "success": "Employee added successfully!",
+        "editSuccess": "Employee updated successfully!",
+        "error": "Failed to add employee. Please try again.",
+        "editError": "Failed to update employee. Please try again."
+      },
+      "submit": "Add Employee",
+      "editSubmit": "Save Changes",
+      "cancel": "Cancel"
+    },
+    "customer": {
+      "title": "Add Customer",
+      "editTitle": "Edit Customer",
+      "select": "Select a customer",
+      "found": "Search for a customer",
+      "searchPlaceholder": "Enter customer's last name, first name or PESEL number",
+      "sections": {
+        "personal": "Personal Information",
+        "address": "Address Information",
+        "identification": "ID Information",
+        "contact": "Contact Information",
+        "notes": "Additional Notes"
+      },
+      "fields": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter first name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter last name"
+        },
+        "pesel": {
+          "label": "PESEL",
+          "placeholder": "Enter PESEL"
+        },
+        "dateOfBirth": {
+          "label": "Date of Birth",
+          "placeholder": "Enter date of birth"
+        },
+        "street": {
+          "label": "Street",
+          "placeholder": "Enter street"
+        },
+        "houseNumber": {
+          "label": "House Number",
+          "placeholder": "Enter house number"
+        },
+        "postalCode": {
+          "label": "Postal Code",
+          "placeholder": "Enter postal code"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "Enter city"
+        },
+        "idSeries": {
+          "label": "ID Series",
+          "placeholder": "Enter ID series"
+        },
+        "idNumber": {
+          "label": "ID Number",
+          "placeholder": "Enter ID number"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Enter phone number"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter email"
+        },
+        "notes": {
+          "label": "Notes",
+          "placeholder": "Enter notes"
+        }
+      },
+      "validation": {
+        "required": "Field {{field}} must be filled out.",
+        "pesel": "PESEL must be exactly 11 digits long and only contain numbers.",
+        "success": "Customer added successfully!",
+        "editSuccess": "Customer updated successfully!",
+        "error": "Failed to add customer. Please try again.",
+        "editError": "Failed to update customer. Please try again."
+      },
+      "submit": "Add Customer",
+      "editSubmit": "Save Changes",
+      "cancel": "Cancel"
+    },
+    "product": {
+      "title": "Add Product",
+      "editTitle": "Edit Product",
+      "addSubmit": "Add Product",
+      "sections": {
+        "basicData": "Basic Information",
+        "productDetails": "Product Details",
+        "pricingData": "Pricing Information",
+        "additionalData": "Additional Information",
+        "transactionData": "Transaction Details",
+        "transaction": "Transaction"
+      },
+      "fields": {
+        "name": {
+          "label": "Product Name",
+          "placeholder": "Enter product name"
+        },
+        "searchCustomer": {
+          "label": "Search for Customer",
+          "placeholder": "Enter first name, last name, or PESEL"
+        },
+        "productImages": {
+          "label": "Product Images"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter product description"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select category"
+        },
+        "condition": {
+          "label": "Condition",
+          "placeholder": "Select product condition",
+          "options": {
+            "new": "New",
+            "likeNew": "Like New",
+            "good": "Good",
+            "fair": "Fair",
+            "poor": "Poor"
+          }
+        },
+        "brand": {
+          "label": "Brand",
+          "placeholder": "Enter brand"
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Enter model"
+        },
+        "serialNumber": {
+          "label": "Serial Number",
+          "placeholder": "Enter serial number"
+        },
+        "purchasePrice": {
+          "label": "Purchase Price",
+          "placeholder": "Enter purchase price"
+        },
+        "estimatedValue": {
+          "label": "Estimated Value",
+          "placeholder": "Enter estimated value"
+        },
+        "salePrice": {
+          "label": "Sale Price",
+          "placeholder": "Enter sale price"
+        },
+        "quantity": {
+          "label": "Quantity",
+          "placeholder": "Enter quantity"
+        },
+        "location": {
+          "label": "Location",
+          "placeholder": "Enter location"
+        },
+        "notes": {
+          "label": "Notes",
+          "placeholder": "Enter additional notes"
+        },
+        "images": {
+          "label": "Product Images"
+        },
+        "transactionType": {
+          "label": "Transaction Type",
+          "placeholder": "Enter transaction type (pawn / sale)",
+          "options": {
+            "pawn": "Pawn",
+            "sale": "Sale"
+          }
+        },
+        "dateOfReceipt": {
+          "label": "Date of Receipt",
+          "placeholder": "Enter date of receipt"
+        },
+        "redemptionDeadline": {
+          "label": "Redemption Deadline",
+          "placeholder": "Enter redemption deadline (if pawned)"
+        },
+        "loanValue": {
+          "label": "Loan Value",
+          "placeholder": "Enter loan value (if pawned)"
+        },
+        "interestRate": {
+          "label": "Interest Rate",
+          "placeholder": "Enter interest rate (if pawned)"
+        },
+        "yearOfProduction": {
+          "label": "Year of Production",
+          "placeholder": "Enter year of production"
+        },
+        "customer": {
+          "label": "Customer",
+          "placeholder": "Select customer"
+        },
+        "technicalCondition": {
+          "label": "Technical Condition",
+          "placeholder": "Enter technical condition"
+        },
+        "additionalNotes": {
+          "label": "Additional Notes",
+          "placeholder": "Enter additional notes"
+        }
+      },
+      "validation": {
+        "required": "Field {{field}} must be filled out.",
+        "positiveNumber": "{{field}} must be a positive number.",
+        "minValue": "{{field}} must be greater than or equal to {{min}}.",
+        "maxValue": "{{field}} must be less than or equal to {{max}}.",
+        "invalidCategory": "Please select a valid category.",
+        "invalidCondition": "Please select a valid condition.",
+        "success": "Product added successfully!",
+        "editSuccess": "Product updated successfully!",
+        "error": "Failed to add product. Please try again.",
+        "editError": "Failed to update product. Please try again.",
+        "fetchError": "Failed to load product data."
+      },
+      "submit": "Add Product",
+      "editSubmit": "Save Changes",
+      "cancel": "Cancel"
+    }
+  },
+  "cards": {
+    "customer": {
+      "title": "Customer Details",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "pesel": "PESEL",
+      "address": "Address",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete customer {{firstName}} {{lastName}}?",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "personalInformation": "Personal Information",
+      "contactInformation": "Contact Information",
+      "dateOfBirth": "Date of Birth",
+      "id": "ID Number",
+      "notes": "Notes",
+      "items": "Items",
+      "noItemsAvailable": "No items available",
+      "pawn": "pawn",
+      "sale": "sale",
+      "redeemed": "redeemed",
+      "sold": "sold",
+      "unknown": "unknown"
+    },
+    "product": {
+      "title": "Product Details",
+      "name": "Name",
+      "description": "Description",
+      "category": "Category",
+      "brand": "Brand",
+      "model": "Model",
+      "serialNumber": "Serial Number",
+      "yearOfProduction": "Year of Production",
+      "technicalCondition": "Technical Condition",
+      "purchasePrice": "Purchase Price",
+      "salePrice": "Sale Price",
+      "transactionType": "Transaction Type",
+      "dateOfReceipt": "Date of Receipt",
+      "redemptionDeadline": "Redemption Deadline",
+      "loanValue": "Loan Value",
+      "interestRate": "Interest Rate",
+      "additionalNotes": "Additional Notes",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this product?",
+      "productDetails": "Product Details",
+      "transactionDetails": "Transaction Details",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "client": "Client",
+      "transactionNotes": "Transaction Notes",
+      "markAsRedeem": "Mark as Redeemed",
+      "markAsSold": "Mark as Sold"
+    },
+    "employee": {
+      "title": "Employee Details",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "position": "Position",
+      "dateOfEmployment": "Date of Employment",
+      "salary": "Salary",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this employee?",
+      "errorDelete": "There was an error deleting the employee",
+      "collapse": "Collapse",
+      "expand": "Expand",
+      "personalInformation": "Personal Information",
+      "contactInformation": "Contact Information",
+      "address": "Address",
+      "idInformation": "ID Information",
+      "id": "ID Number",
+      "pesel": "PESEL",
+      "dateOfBirth": "Date of Birth"
+    }
+  },
+  "routes": {
+    "add": {
+      "customer": "Add new Customer",
+      "employee": "Add new Employee",
+      "product": "Add new Product"
+    },
+    "edit": {
+      "customer": "Edit Customer",
+      "employee": "Edit Employee",
+      "product": "Edit Product"
+    },
+    "loading": {
+      "customer": "Loading customer data...",
+      "employee": "Loading employee data...",
+      "product": "Loading product data..."
+    },
+    "errors": {
+      "fetchCustomer": "Failed to fetch customer data.",
+      "updateCustomer": "Failed to update customer.",
+      "fetchEmployee": "Failed to fetch employee data.",
+      "updateEmployee": "Failed to update employee.",
+      "fetchProduct": "Failed to fetch product data.",
+      "updateProduct": "Failed to update product."
+    },
+    "success": {
+      "updateCustomer": "Customer updated successfully!",
+      "updateEmployee": "Employee updated successfully!",
+      "updateProduct": "Product updated successfully!"
+    },
+    "archives": {
+      "title": "Archives",
+      "searchPlaceholder": "Search by product name, brand, or category",
+      "loading": "Loading products...",
+      "error": "Failed to load products or customers. Please try again later.",
+      "noProducts": "No products found."
+    },
+    "customers": {
+      "title": "All Customers",
+      "searchPlaceholder": "Search by first name, last name, or PESEL",
+      "noCustomers": "No customers found",
+      "error": {
+        "fetch": "Error fetching customers.",
+        "delete": "Error deleting customer."
+      },
+      "success": {
+        "delete": "Customer successfully deleted."
+      }
+    },
+    "employees": {
+      "title": "All Employees",
+      "searchPlaceholder": "Search by first name, last name, or position",
+      "noEmployees": "No employees found",
+      "loading": "Loading employees...",
+      "error": {
+        "fetch": "Error fetching employees."
+      }
+    },
+    "products": {
+      "title": "All Products",
+      "searchPlaceholder": "Search by product name, brand, or category",
+      "noProducts": "No products found",
+      "loading": "Loading products...",
+      "error": {
+        "fetch": "Failed to load products or customers. Please try again later.",
+        "delete": "Error deleting product."
+      },
+      "success": {
+        "delete": "Product successfully deleted."
+      }
+    }
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  }
+}

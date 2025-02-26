@@ -1,0 +1,11 @@
+{
+  "contactForm": {
+    "labels": {
+      "name": "Imię i nazwisko",
+      "email": "Email",
+      "subject": "Temat",
+      "message": "Wiadomość"
+    },
+    "submitButton": "Wyślij wiadomość"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "about": {
+    "title": "About the System",
+    "intro": "Our Pawnshop system is a modern and efficient tool for pawnshop management that simplifies daily operations and automates many key tasks. With its intuitive interface, you can easily manage employees, customers, and items.",
+    "features": {
+      "title": "Main System Features",
+      "list": {
+        "0": "Add, edit, and delete employees, customers, and items in a simple management panel.",
+        "1": "Ability to assign items as pawned or for sale, with automatic status changes after redemption deadline.",
+        "2": "Archive sold and redeemed items, allowing for easy tracking of transaction history.",
+        "3": "Generate reports that help analyze data on pawns and sales."
+      }
+    },
+    "description": "The system was designed with process optimization in mind, saving time and minimizing errors in your pawnshop. Through automation of important tasks, you can focus on growing your business.",
+    "contact": "If you want to implement our Pawnshop system in your pawnshop, please contact us using the form. We'll be happy to answer your questions and help with the implementation process."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email: contact@pawnshop.pl",
+    "phone": "Phone: +48 123 456 789"
+  },
+  "openingHours": {
+    "title": "Opening Hours",
+    "weekdays": "Mon-Fri: 9:00 - 17:00",
+    "saturday": "Sat: 10:00 - 14:00"
+  },
+  "information": {
+    "title": "Information",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "copyright": "All rights reserved.",
+  "login": "Log in",
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message"
+  }
+}

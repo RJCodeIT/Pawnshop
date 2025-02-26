@@ -1,0 +1,70 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Pawnshop activity overview",
+    "buttons": {
+      "addProduct": "Add Product",
+      "addCustomer": "Add Customer"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "productsList": "Products List",
+      "customersList": "Customers List",
+      "settings": "Settings",
+      "employees": "Employees"
+    },
+    "reminders": {
+      "title": "Reminders",
+      "upcomingDeadline": "Upcoming Redemption Deadline",
+      "deadlineDescription": "5 pawns require attention",
+      "check": "Check",
+      "newProducts": "New Products",
+      "newProductsDescription": "3 products added today",
+      "view": "View"
+    }
+  },
+  "search": {
+    "customers": "Search customers...",
+    "products": "Search products...",
+    "employees": "Search employees..."
+  },
+  "stats": {
+    "dailySales": {
+      "title": "Daily Sales",
+      "timeFrame": "Today"
+    },
+    "activePawns": {
+      "title": "Active Pawns",
+      "timeFrame": "Last 24h"
+    },
+    "newCustomers": {
+      "title": "New Customers",
+      "timeFrame": "This Week"
+    },
+    "averagePawnValue": {
+      "title": "Average Pawn Value",
+      "timeFrame": "Last Month"
+    },
+    "monthlySummary": {
+      "title": "Monthly Summary",
+      "totalSales": {
+        "title": "Total Sales"
+      },
+      "redeemedPawns": {
+        "title": "Redeemed Pawns"
+      },
+      "overduePawns": {
+        "title": "Overdue Pawns"
+      }
+    },
+    "yearlyStats": {
+      "title": "Yearly Statistics",
+      "totalTurnover": {
+        "title": "Total Turnover"
+      },
+      "totalCustomers": {
+        "title": "Total Customers"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "contactForm": {
+    "labels": {
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "submitButton": "Send Message"
+  }
+}

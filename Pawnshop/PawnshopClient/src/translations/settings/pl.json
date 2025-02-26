@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "welcome": "Ustawienia",
+    "description": "Tutaj możesz zarządzać ustawieniami aplikacji",
+    "selectLanguage": "Wybierz język:",
+    "saveButton": "Zapisz"
+  }
+}

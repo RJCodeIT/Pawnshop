@@ -1,0 +1,12 @@
+{
+  "title": "Login Panel",
+  "subtitle": "Sign in to the system",
+  "form": {
+    "login": "Login",
+    "password": "Password",
+    "submit": "Sign in"
+  },
+  "error": {
+    "invalid": "Invalid login or password"
+  }
+}

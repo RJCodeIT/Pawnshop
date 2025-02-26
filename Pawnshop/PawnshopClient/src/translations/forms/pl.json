@@ -1,0 +1,480 @@
+{
+  "forms": {
+    "employee": {
+      "title": "Dodaj pracownika",
+      "editTitle": "Edytuj pracownika",
+      "sections": {
+        "personal": "Dane osobowe",
+        "address": "Dane adresowe",
+        "identification": "Dane identyfikacyjne",
+        "contact": "Dane kontaktowe",
+        "account": "Dane konta",
+        "id": "Dane identyfikacyjne"
+      },
+      "fields": {
+        "firstName": {
+          "label": "Imię",
+          "placeholder": "Wprowadź imię"
+        },
+        "lastName": {
+          "label": "Nazwisko",
+          "placeholder": "Wprowadź nazwisko"
+        },
+        "pesel": {
+          "label": "PESEL",
+          "placeholder": "Wprowadź PESEL"
+        },
+        "dateOfBirth": {
+          "label": "Data Urodzenia",
+          "placeholder": "Wprowadź datę urodzenia"
+        },
+        "street": {
+          "label": "Ulica",
+          "placeholder": "Wprowadź ulicę"
+        },
+        "houseNumber": {
+          "label": "Numer Domu",
+          "placeholder": "Wprowadź numer domu"
+        },
+        "postalCode": {
+          "label": "Kod Pocztowy",
+          "placeholder": "Wprowadź kod pocztowy"
+        },
+        "city": {
+          "label": "Miasto",
+          "placeholder": "Wprowadź miasto"
+        },
+        "idSeries": {
+          "label": "Seria Dowodu",
+          "placeholder": "Wprowadź serię dowodu"
+        },
+        "idNumber": {
+          "label": "Numer Dowodu",
+          "placeholder": "Wprowadź numer dowodu"
+        },
+        "phoneNumber": {
+          "label": "Numer Telefonu",
+          "placeholder": "Wprowadź numer telefonu"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Wprowadź email"
+        },
+        "login": {
+          "label": "Login",
+          "placeholder": "Wprowadź login"
+        },
+        "password": {
+          "label": "Hasło",
+          "placeholder": "Wprowadź hasło"
+        },
+        "role": {
+          "label": "Rola",
+          "placeholder": "Wprowadź rolę (admin lub pracownik)"
+        }
+      },
+      "validation": {
+        "required": "Pole {{field}} musi być wypełnione.",
+        "pesel": "PESEL musi mieć dokładnie 11 cyfr i zawierać tylko liczby.",
+        "email": "Proszę wprowadzić poprawny adres email.",
+        "phoneNumber": "Numer telefonu musi mieć od 9 do 15 cyfr i zawierać tylko liczby.",
+        "role": "Rola musi być 'admin' lub 'pracownik'.",
+        "success": "Pracownik został dodany pomyślnie!",
+        "editSuccess": "Pracownik został zaktualizowany pomyślnie!",
+        "error": "Nie udało się dodać pracownika. Spróbuj ponownie.",
+        "editError": "Nie udało się zaktualizować pracownika. Spróbuj ponownie."
+      },
+      "submit": "Dodaj Pracownika",
+      "editSubmit": "Zapisz Zmiany",
+      "cancel": "Anuluj"
+    },
+    "customer": {
+      "title": "Dodaj klienta",
+      "editTitle": "Edytuj klienta",
+      "select": "Wybierz klienta",
+      "found": "Wyszukaj klienta",
+      "searchPlaceholder": "Wprowadź nazwisko, imię lub pesel",
+      "sections": {
+        "personal": "Dane osobowe",
+        "address": "Dane adresowe",
+        "identification": "Dane identyfikacyjne",
+        "contact": "Dane kontaktowe",
+        "notes": "Dodatkowe uwagi"
+      },
+      "fields": {
+        "firstName": {
+          "label": "Imię",
+          "placeholder": "Wprowadź imię"
+        },
+        "lastName": {
+          "label": "Nazwisko",
+          "placeholder": "Wprowadź nazwisko"
+        },
+        "pesel": {
+          "label": "PESEL",
+          "placeholder": "Wprowadź PESEL"
+        },
+        "dateOfBirth": {
+          "label": "Data Urodzenia",
+          "placeholder": "Wprowadź datę urodzenia"
+        },
+        "street": {
+          "label": "Ulica",
+          "placeholder": "Wprowadź ulicę"
+        },
+        "houseNumber": {
+          "label": "Numer Domu",
+          "placeholder": "Wprowadź numer domu"
+        },
+        "postalCode": {
+          "label": "Kod Pocztowy",
+          "placeholder": "Wprowadź kod pocztowy"
+        },
+        "city": {
+          "label": "Miasto",
+          "placeholder": "Wprowadź miasto"
+        },
+        "idSeries": {
+          "label": "Seria Dowodu",
+          "placeholder": "Wprowadź serię dowodu"
+        },
+        "idNumber": {
+          "label": "Numer Dowodu",
+          "placeholder": "Wprowadź numer dowodu"
+        },
+        "phoneNumber": {
+          "label": "Numer Telefonu",
+          "placeholder": "Wprowadź numer telefonu"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Wprowadź email"
+        },
+        "notes": {
+          "label": "Uwagi",
+          "placeholder": "Wprowadź uwagi"
+        }
+      },
+      "validation": {
+        "required": "Pole {{field}} musi być wypełnione.",
+        "pesel": "PESEL musi mieć dokładnie 11 cyfr i zawierać tylko liczby.",
+        "success": "Klient został dodany pomyślnie!",
+        "editSuccess": "Klient został zaktualizowany pomyślnie!",
+        "error": "Nie udało się dodać klienta. Spróbuj ponownie.",
+        "editError": "Nie udało się zaktualizować klienta. Spróbuj ponownie."
+      },
+      "submit": "Dodaj Klienta",
+      "editSubmit": "Zapisz Zmiany",
+      "cancel": "Anuluj"
+    },
+    "product": {
+      "title": "Dodaj Produkt",
+      "editTitle": "Edytuj Produkt",
+      "addSubmit": "Dodaj produkt",
+      "sections": {
+        "basicData": "Podstawowe Informacje",
+        "productDetails": "Szczegóły Produktu",
+        "pricingData": "Informacje o Cenach",
+        "additionalData": "Dodatkowe Informacje",
+        "transactionData": "Szczegóły Transakcji",
+        "transaction": "Transakcja"
+      },
+      "fields": {
+        "name": {
+          "label": "Nazwa Produktu",
+          "placeholder": "Wprowadź nazwę produktu"
+        },
+        "searchCustomer": {
+          "label": "Wyszukaj klienta",
+          "placeholder": "Wpisz imię, nazwisko lub PESEL klienta"
+        },
+        "description": {
+          "label": "Opis",
+          "placeholder": "Wprowadź opis produktu"
+        },
+        "category": {
+          "label": "Kategoria",
+          "placeholder": "Wybierz kategorię"
+        },
+        "condition": {
+          "label": "Stan",
+          "placeholder": "Wybierz stan produktu",
+          "options": {
+            "new": "Nowy",
+            "likeNew": "Jak Nowy",
+            "good": "Dobry",
+            "fair": "Średni",
+            "poor": "Słaby"
+          }
+        },
+        "brand": {
+          "label": "Marka",
+          "placeholder": "Wprowadź markę"
+        },
+        "model": {
+          "label": "Model",
+          "placeholder": "Wprowadź model"
+        },
+        "serialNumber": {
+          "label": "Numer Seryjny",
+          "placeholder": "Wprowadź numer seryjny"
+        },
+        "purchasePrice": {
+          "label": "Cena Zakupu",
+          "placeholder": "Wprowadź cenę zakupu"
+        },
+        "estimatedValue": {
+          "label": "Szacowana Wartość",
+          "placeholder": "Wprowadź szacowaną wartość"
+        },
+        "salePrice": {
+          "label": "Cena Sprzedaży",
+          "placeholder": "Wprowadź cenę sprzedaży"
+        },
+        "quantity": {
+          "label": "Ilość",
+          "placeholder": "Wprowadź ilość"
+        },
+        "location": {
+          "label": "Lokalizacja",
+          "placeholder": "Wprowadź lokalizację"
+        },
+        "notes": {
+          "label": "Uwagi",
+          "placeholder": "Wprowadź dodatkowe uwagi"
+        },
+        "productImages": {
+          "label": "Zdjęcia produktu"
+        },
+        "images": {
+          "label": "Zdjęcia produktu"
+        },
+        "transactionType": {
+          "label": "Typ transakcji",
+          "placeholder": "Wprowadź typ transakcji (zastaw / sprzedaż)",
+          "options": {
+            "pawn": "Zastaw",
+            "sale": "Sprzedaż"
+          }
+        },
+        "dateOfReceipt": {
+          "label": "Data przyjęcia",
+          "placeholder": "Wprowadź datę przyjęcia"
+        },
+        "redemptionDeadline": {
+          "label": "Termin wykupu",
+          "placeholder": "Wprowadź termin wykupu (dla zastawu)"
+        },
+        "loanValue": {
+          "label": "Wartość pożyczki",
+          "placeholder": "Wprowadź wartość pożyczki (dla zastawu)"
+        },
+        "interestRate": {
+          "label": "Stopa procentowa",
+          "placeholder": "Wprowadź stopę procentową (dla zastawu)"
+        },
+        "yearOfProduction": {
+          "label": "Rok produkcji",
+          "placeholder": "Wprowadź rok produkcji"
+        },
+        "customer": {
+          "label": "Klient",
+          "placeholder": "Wybierz klienta"
+        },
+        "technicalCondition": {
+          "label": "Stan techniczny",
+          "placeholder": "Wprowadź stan techniczny"
+        },
+        "additionalNotes": {
+          "label": "Dodatkowe uwagi",
+          "placeholder": "Wprowadź dodatkowe uwagi"
+        }
+      },
+      "validation": {
+        "required": "Pole {{field}} musi być wypełnione.",
+        "positiveNumber": "{{field}} musi być liczbą dodatnią.",
+        "minValue": "{{field}} musi być większe lub równe {{min}}.",
+        "maxValue": "{{field}} musi być mniejsze lub równe {{max}}.",
+        "invalidCategory": "Proszę wybrać poprawną kategorię.",
+        "invalidCondition": "Proszę wybrać poprawny stan.",
+        "customerRequired": "Wybierz klienta",
+        "nameRequired": "Wprowadź nazwę produktu",
+        "descriptionRequired": "Wprowadź opis produktu",
+        "categoryRequired": "Wybierz kategorię produktu",
+        "technicalConditionRequired": "Określ stan techniczny produktu",
+        "purchasePriceRequired": "Wprowadź cenę zakupu",
+        "transactionTypeRequired": "Wybierz typ transakcji",
+        "dateRequired": "Wprowadź datę przyjęcia",
+        "invalidTransactionType": "Nieprawidłowy typ transakcji. Wybierz 'zastaw' lub 'sprzedaż'",
+        "success": "Produkt został dodany pomyślnie!",
+        "editSuccess": "Produkt został zaktualizowany pomyślnie!",
+        "error": "Nie udało się dodać produktu. Spróbuj ponownie.",
+        "editError": "Nie udało się zaktualizować produktu. Spróbuj ponownie.",
+        "fetchError": "Nie udało się załadować danych produktu."
+      },
+      "submit": "Dodaj Produkt",
+      "editSubmit": "Zapisz Zmiany",
+      "cancel": "Anuluj"
+    }
+  },
+  "cards": {
+    "product": {
+      "title": "Szczegóły produktu",
+      "name": "Nazwa",
+      "description": "Opis",
+      "category": "Kategoria",
+      "brand": "Marka",
+      "model": "Model",
+      "serialNumber": "Numer seryjny",
+      "yearOfProduction": "Rok produkcji",
+      "technicalCondition": "Stan techniczny",
+      "purchasePrice": "Cena zakupu",
+      "salePrice": "Cena sprzedaży",
+      "transactionType": "Typ transakcji",
+      "dateOfReceipt": "Data przyjęcia",
+      "redemptionDeadline": "Termin wykupu",
+      "loanValue": "Wartość pożyczki",
+      "interestRate": "Stopa procentowa",
+      "additionalNotes": "Dodatkowe uwagi",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "confirmDelete": "Czy na pewno chcesz usunąć ten produkt?",
+      "productDetails": "Szczegóły produktu",
+      "transactionDetails": "Szczegóły transakcji",
+      "collapse": "Zwiń",
+      "expand": "Rozwiń",
+      "client": "Klient",
+      "transactionNotes": "Uwagi do transakcji",
+      "markAsRedeem": "Oznacz jako wykupiony",
+      "markAsSold": "Oznacz jako sprzedany"
+    },
+    "employee": {
+      "title": "Szczegóły pracownika",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Email",
+      "phoneNumber": "Numer telefonu",
+      "position": "Stanowisko",
+      "dateOfEmployment": "Data zatrudnienia",
+      "salary": "Wynagrodzenie",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "confirmDelete": "Czy na pewno chcesz usunąć tego pracownika?",
+      "errorDelete": "Wystąpił błąd podczas usuwania pracownika",
+      "collapse": "Zwiń",
+      "expand": "Rozwiń",
+      "personalInformation": "Informacje osobiste",
+      "contactInformation": "Informacje kontaktowe",
+      "address": "Adres",
+      "idInformation": "Informacje o dokumencie",
+      "id": "Numer dowodu",
+      "pesel": "PESEL",
+      "dateOfBirth": "Data urodzenia"
+    },
+    "customer": {
+      "title": "Szczegóły klienta",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Email",
+      "phoneNumber": "Numer telefonu",
+      "pesel": "PESEL",
+      "address": "Adres",
+      "city": "Miasto",
+      "postalCode": "Kod pocztowy",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "confirmDelete": "Czy na pewno chcesz usunąć klienta {{firstName}} {{lastName}}?",
+      "collapse": "Zwiń",
+      "expand": "Rozwiń",
+      "personalInformation": "Informacje osobiste",
+      "contactInformation": "Informacje kontaktowe",
+      "dateOfBirth": "Data urodzenia",
+      "id": "Numer dowodu",
+      "notes": "Uwagi",
+      "items": "Przedmioty",
+      "noItemsAvailable": "Brak przedmiotów",
+      "pawn": "zastaw",
+      "sale": "sprzedaż",
+      "redeemed": "wykupiony",
+      "sold": "sprzedany",
+      "unknown": "nieznany"
+    },
+    "routes": {
+      "add": {
+        "customer": "Dodaj nowego klienta",
+        "employee": "Dodaj nowego pracownika",
+        "product": "Dodaj nowy produkt"
+      },
+      "edit": {
+        "customer": "Edytuj klienta",
+        "employee": "Edytuj pracownika",
+        "product": "Edytuj produkt"
+      },
+      "loading": {
+        "customer": "Ładowanie danych klienta...",
+        "employee": "Ładowanie danych pracownika...",
+        "product": "Ładowanie danych produktu..."
+      },
+      "errors": {
+        "fetchCustomer": "Nie udało się pobrać danych klienta.",
+        "updateCustomer": "Nie udało się zaktualizować danych klienta.",
+        "fetchEmployee": "Nie udało się pobrać danych pracownika.",
+        "updateEmployee": "Nie udało się zaktualizować danych pracownika.",
+        "fetchProduct": "Nie udało się pobrać danych produktu.",
+        "updateProduct": "Nie udało się zaktualizować danych produktu."
+      },
+      "success": {
+        "updateCustomer": "Pomyślnie zaktualizowano dane klienta!",
+        "updateEmployee": "Pomyślnie zaktualizowano dane pracownika!",
+        "updateProduct": "Pomyślnie zaktualizowano dane produktu!"
+      },
+      "archives": {
+        "title": "Archiwum",
+        "searchPlaceholder": "Szukaj po nazwie produktu, marce lub kategorii",
+        "loading": "Ładowanie produktów...",
+        "error": "Nie udało się załadować produktów lub klientów. Spróbuj ponownie później.",
+        "noProducts": "Nie znaleziono produktów."
+      },
+      "customers": {
+        "title": "Wszyscy Klienci",
+        "searchPlaceholder": "Szukaj po imieniu, nazwisku lub PESEL",
+        "noCustomers": "Nie znaleziono klientów",
+        "error": {
+          "fetch": "Błąd podczas pobierania klientów.",
+          "delete": "Błąd podczas usuwania klienta."
+        },
+        "success": {
+          "delete": "Klient został pomyślnie usunięty."
+        }
+      },
+      "employees": {
+        "title": "Wszyscy Pracownicy",
+        "searchPlaceholder": "Szukaj po imieniu, nazwisku lub stanowisku",
+        "noEmployees": "Nie znaleziono pracowników",
+        "loading": "Ładowanie pracowników...",
+        "error": {
+          "fetch": "Błąd podczas pobierania pracowników."
+        }
+      },
+      "products": {
+        "title": "Wszystkie Produkty",
+        "searchPlaceholder": "Szukaj po nazwie produktu, marce lub kategorii",
+        "noProducts": "Nie znaleziono produktów",
+        "loading": "Ładowanie produktów...",
+        "error": {
+          "fetch": "Nie udało się załadować produktów lub klientów. Spróbuj ponownie później.",
+          "delete": "Błąd podczas usuwania produktu."
+        },
+        "success": {
+          "delete": "Produkt został pomyślnie usunięty."
+        }
+      }
+    }
+  },
+  "pagination": {
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "page": "Strona",
+    "of": "z"
+  }
+}

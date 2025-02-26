@@ -1,0 +1,18 @@
+{
+  "contact": {
+    "title": "Contact",
+    "email": "Email: contact@pawnshop.pl",
+    "phone": "Phone: +48 123 456 789"
+  },
+  "openingHours": {
+    "title": "Opening Hours",
+    "weekdays": "Mon-Fri: 9:00 - 17:00",
+    "saturday": "Sat: 10:00 - 14:00"
+  },
+  "information": {
+    "title": "Information",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "copyright": "All rights reserved."
+}

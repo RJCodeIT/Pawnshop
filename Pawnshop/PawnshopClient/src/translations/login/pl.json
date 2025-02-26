@@ -1,0 +1,12 @@
+{
+  "title": "Panel logowania",
+  "subtitle": "Zaloguj się do systemu",
+  "form": {
+    "login": "Login",
+    "password": "Hasło",
+    "submit": "Zaloguj się"
+  },
+  "error": {
+    "invalid": "Nieprawidłowy login lub hasło"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "about": {
+    "title": "O systemie",
+    "intro": "Nasz system Lombard to nowoczesne i efektywne narzędzie do zarządzania lombardem, które upraszcza codzienne operacje i automatyzuje wiele kluczowych zadań. Dzięki intuicyjnemu interfejsowi możesz z łatwością zarządzać pracownikami, klientami i przedmiotami.",
+    "features": {
+      "title": "Główne funkcje systemu",
+      "list": {
+        "0": "Dodawanie, edytowanie oraz usuwanie pracowników, klientów i przedmiotów w prostym panelu zarządzania.",
+        "1": "Możliwość przypisania przedmiotów jako zastawionych lub na sprzedaż, z automatyczną zmianą statusu po upływie terminu wykupu.",
+        "2": "Archiwizowanie sprzedanych i wykupionych przedmiotów, co pozwala na łatwe śledzenie historii transakcji.",
+        "3": "Generowanie raportów, które pomagają analizować dane dotyczące zastawów i sprzedaży."
+      }
+    },
+    "description": "System został zaprojektowany z myślą o optymalizacji procesów w lombardzie, co pozwala zaoszczędzić czas i minimalizować błędy. Dzięki automatyzacji ważnych zadań, możesz skupić się na rozwoju swojego biznesu.",
+    "contact": "Jeśli chcesz wdrożyć nasz system Lombard w swoim lombardzie, zapraszamy do kontaktu za pomocą formularza. Chętnie odpowiemy na Twoje pytania i pomożemy w procesie wdrożenia."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "email": "Email: kontakt@pawnshop.pl",
+    "phone": "Tel: +48 123 456 789"
+  },
+  "openingHours": {
+    "title": "Godziny otwarcia",
+    "weekdays": "Pon-Pt: 9:00 - 17:00",
+    "saturday": "Sob: 10:00 - 14:00"
+  },
+  "information": {
+    "title": "Informacje",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności"
+  },
+  "copyright": "Wszelkie prawa zastrzeżone.",
+  "login": "Zaloguj się",
+  "form": {
+    "name": "Imię i nazwisko",
+    "email": "Email",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "submit": "Wyślij wiadomość"
+  }
+}

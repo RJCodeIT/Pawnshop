@@ -1,0 +1,70 @@
+{
+  "dashboard": {
+    "title": "Panel główny",
+    "subtitle": "Przegląd działalności lombardu",
+    "buttons": {
+      "addProduct": "Dodaj produkt",
+      "addCustomer": "Dodaj klienta"
+    },
+    "quickActions": {
+      "title": "Szybkie akcje",
+      "productsList": "Lista produktów",
+      "customersList": "Lista klientów",
+      "settings": "Ustawienia",
+      "employees": "Pracownicy"
+    },
+    "reminders": {
+      "title": "Przypomnienia",
+      "upcomingDeadline": "Zbliżający się termin wykupu",
+      "deadlineDescription": "5 zastawów wymaga uwagi",
+      "check": "Sprawdź",
+      "newProducts": "Nowe produkty",
+      "newProductsDescription": "3 produkty dodane dzisiaj",
+      "view": "Zobacz"
+    }
+  },
+  "search": {
+    "customers": "Szukaj klientów...",
+    "products": "Szukaj produktów...",
+    "employees": "Szukaj pracowników..."
+  },
+  "stats": {
+    "dailySales": {
+      "title": "Dzienna sprzedaż",
+      "timeFrame": "Dzisiaj"
+    },
+    "activePawns": {
+      "title": "Aktywne zastawy",
+      "timeFrame": "Ostatnie 24h"
+    },
+    "newCustomers": {
+      "title": "Nowi klienci",
+      "timeFrame": "Ten tydzień"
+    },
+    "averagePawnValue": {
+      "title": "Średnia wartość zastawu",
+      "timeFrame": "Ostatni miesiąc"
+    },
+    "monthlySummary": {
+      "title": "Podsumowanie miesięczne",
+      "totalSales": {
+        "title": "Łączna sprzedaż"
+      },
+      "redeemedPawns": {
+        "title": "Wykupione zastawy"
+      },
+      "overduePawns": {
+        "title": "Przeterminowane zastawy"
+      }
+    },
+    "yearlyStats": {
+      "title": "Statystyki roczne",
+      "totalTurnover": {
+        "title": "Łączny obrót"
+      },
+      "totalCustomers": {
+        "title": "Całkowita liczba klientów"
+      }
+    }
+  }
+}

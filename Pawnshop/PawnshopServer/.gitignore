@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript compiled files
+dist/
+build/
+out/
+
+# Editor settings and project-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports (e.g., from Jest)
+coverage/
+
+# Cache directories
+.cache/
+eslintcache
